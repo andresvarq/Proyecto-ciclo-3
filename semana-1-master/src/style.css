@@ -1,0 +1,97 @@
+body {
+    font-family: "Times New Roman";
+    width: 1200px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner {
+    background-color: black;
+}
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.titulo{
+    width: 70%;
+}
+.menu{
+    width: 30%;
+}
+.lista{
+    display: flex;
+}
+.lista li{
+    display: inline;
+    width: 25%;
+    text-align: center;
+    text-size-adjust: 200%;
+}
+.lista a:link{
+    text-size-adjust: auto;
+    color: white;
+}
+.lista a:visited{
+    text-size-adjust: auto;
+    color: white;
+}
+.lista a:hover{
+    text-size-adjust: auto;
+    color: black;
+    background-color: white;
+}
+.main{
+    background-color: rgb(207, 204, 204);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.services {
+    background-color: rgb(207, 204, 204);
+    column-count: 3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.news {
+    background-color: rgb(207, 204, 204);
+    column-count: 2;
+}
+.rows{
+    height: 100%;
+}
+.rows div{
+    height: 50%;
+}
+.news div:hover{
+    background-color: rgb(185, 184, 184);
+}
+.team {
+    background-color: rgb(207, 204, 204);
+    column-count: 3;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
