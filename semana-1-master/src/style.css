@@ -89,6 +89,11 @@ body {
     text-decoration: none;
 }
 
+.servicios__titulo {
+    color: #f51720;
+    text-decoration: none;
+}
+
 .noticias {
     display: flex;
     margin-top: 20px;
@@ -99,5 +104,24 @@ body {
 }
 
 .renglon {
+    padding-bottom: 20px;
+}
 
+.renglon__titulo {
+    color: #f51720;
+    text-decoration: none;
+}
+
+.renglon__item > a {
+    color: #f51720;
+    text-decoration: none;
+}
+
+.equipo {
+    display: flex;
+    margin-top: 20px;
+    width: 1200px;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
 }
