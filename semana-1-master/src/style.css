@@ -2,6 +2,7 @@ body {
     background: linear-gradient(#09035c, #020111);
     width: 1200px;
     font-family: "Didot";
+    color: white;
 }
 
 .header {
@@ -132,4 +133,30 @@ body {
 
 .miembro__imagen {
     border-radius: 50%;
+}
+
+.miembro__nombre {
+    color: #f51720;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+address > a {
+    color: #f51720;
+    text-decoration: none;
+}
+
+.vinculo {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor_datos {
+    width: 50%;
 }
