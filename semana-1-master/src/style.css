@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(#476bc9, #1a172a);
+    width: 965px;
+}
+
+.header {
+    background-color: #f3fa53;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 965px;
+}
+
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.titulo > a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor-menu {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu__item > a {
+    text-decoration: none;
+    color: black;
+}
+
+.portada {
+    margin-top: 40px;
+    right: 0px;
+    width: 965px;
+    display: flex;
+    justify-content: center;
+}
+
+.portada__titulo {
+    position: absolute;
+}
+
+.portada__texto {
+    position: absolute;
+}
+
+.portada__imagen {
+    right: 0px;
+}
