@@ -8,3 +8,4 @@
 * Mario De la Pava: Inicio desarrollo CSS
 * Andrés Felipe Vargas: Finalización desarrollo CSS
 * Amparo González: Correcciones CSS
+*
